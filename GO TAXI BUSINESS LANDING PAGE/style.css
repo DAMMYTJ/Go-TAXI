@@ -1,0 +1,182 @@
+html{
+   scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden !important;
+}
+nav, section, body{
+    background-color: #F3F7FF !important;
+}
+h1{
+    letter-spacing: 4px;
+}
+.hor{
+    width: 50px;
+    border: medium solid #0d6485;
+}
+p{
+    line-height: 30px;
+    font-size: 16.3px;
+    font-weight: 400;
+}
+#box{
+    border: thin solid blue !important;
+    height: 45px;
+    width: 40px;
+    margin-top: 180px !important;
+}
+.eeh, h2, h5{
+    text-align: center;
+}
+.box-2 {
+    width: 70px;
+    height: 70px;
+    margin: -35px auto;
+    display: block;
+    border-radius: 50%;
+}
+h5{
+    color: #00C222 !important;
+}
+.background{
+    background: url('banner.png') repeat-x;
+    height: 165px;
+    background-size: 400px;
+    position: absolute;
+    top: 2300px;
+    width: 100%;
+}
+.after{
+    bottom: 0;
+    height: 210px;
+    background: #1753cd;
+    position: absolute;
+    top: 2500px;
+    width: 100%;
+}
+.big{
+    background: url(back-use.jpg) center bottom no-repeat !important;
+    background-size: 100%;
+    min-height: 50vh;
+}
+ol{
+    list-style-type: none;
+}
+.font, h1, .comp{
+    font-family: GothamBold,sans-serif;
+    color: #17BAD1;
+}
+.comp, .lastbtn{
+    font-size: 14px;
+}
+.got, .list{
+    font-family: GothamMedium, sans-serif;
+}
+.list{
+    font-size: 14px;
+    line-height: 30px;
+}
+.anime{
+    background: url(ilustrasion-scene.png) center bottom no-repeat;
+    width: 100%;
+    height: 280px;
+    background-size: cover;
+}
+.cont{
+    position: relative;
+    overflow: hidden;
+    
+}
+.v1, .v2, .v3{
+    position: relative;
+}
+.v1{
+    top: 180px;
+    right: 2500px;
+    animation: firstvehicle 30s linear running normal infinite;
+}
+.v3{
+    bottom: 30px;
+    left: 3300px;
+    animation: secondvehicle 17s linear running normal infinite;
+}
+.v2{
+    top: 75px;
+    animation: thirdvehicle 25s linear running normal infinite;
+    right: 1800px;
+}
+.oniwhite :hover{
+      background-color: rgb(207, 203, 203);
+      color: black !important;
+      border-radius: 10px;
+}
+@keyframes firstvehicle {
+    0%{
+    }
+    100%{
+        transform: translateX(3500px);
+    }
+}
+@keyframes secondvehicle {
+    0%{
+    }
+    100%{
+        transform: translateX(-6300px);
+    }
+}
+@keyframes thirdvehicle {
+    0%{
+    }
+    100%{
+        transform: translateX(3500px);
+    }
+}
+@media screen and (max-width: 800px) {
+     .after, .background{
+         display: none;
+     }
+     .info{
+        text-align: center;
+     }
+     .card{
+        width: 88%;
+        margin: auto;
+        margin-top: 15px;
+     }
+     .longtext, .whatis{
+        padding-left: 13px;
+        padding-right: 13px;
+     }
+    .couple{
+        width: 94%;
+        margin: auto;
+    } 
+}
+@media screen and (max-width:980px) {
+    .after, .background{
+        display: none;
+    }
+    .alakoko{
+        width: 100%;
+        margin-top: 9px;
+        margin-left: -2%;
+     }
+}
+.last, .copyright{
+    background-color: #21222E;
+}
+a{
+    text-decoration: none;
+}
+a :hover{
+    color: green;
+    text-decoration: underline;
+}
+.lastbtn :hover{
+    background-color: #17BAD1;
+    color: white !important;
+}
+.copyright{
+    font-size: 13px;
+}
+    
